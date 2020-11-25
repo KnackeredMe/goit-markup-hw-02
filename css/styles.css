@@ -1,0 +1,51 @@
+:root {
+  --primary-font-color: #757575;
+  --heading-font-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+}
+/* =======ELEMENTS======= */
+.accent {
+  color: var(--accent-color);
+}
+/* ========HEADER======== */
+.site-nav-link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--heading-font-color);
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.address-contact {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--primary-font-color);
+}
+
+.address-contact:hover,
+.address-contact:focus {
+  color: var(--accent-color);
+}
+
+.address {
+  font-style: normal;
+}
